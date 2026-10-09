@@ -1,0 +1,48 @@
+{
+  "name": "@narwhalapi/mcp",
+  "version": "0.1.0",
+  "description": "Stdio bridge to the Narwhal API Model Context Protocol server.",
+  "type": "module",
+  "bin": {
+    "narwhalapi-mcp": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "prepack": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "economics",
+    "economic-data",
+    "fx",
+    "commodities",
+    "predictions",
+    "narwhal"
+  ],
+  "homepage": "https://narwhalapi.com/docs/mcp",
+  "license": "MIT",
+  "author": "Narwhal API Team <support@narwhalapi.com>"
+}
