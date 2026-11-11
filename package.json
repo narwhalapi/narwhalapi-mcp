@@ -1,6 +1,6 @@
 {
   "name": "@narwhalapi/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stdio bridge to the Narwhal API Model Context Protocol server.",
   "type": "module",
   "bin": {

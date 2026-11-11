@@ -1,0 +1,15 @@
+{
+  "name": "narwhal",
+  "displayName": "Narwhal",
+  "version": "0.1.1",
+  "description": "One API and MCP server for financial and economic data: markets, economics, companies and more.",
+  "author": {
+    "name": "Narwhal",
+    "email": "hello@narwhalapi.com"
+  },
+  "homepage": "https://narwhalapi.com/docs/mcp",
+  "repository": "https://github.com/narwhalapi/narwhalapi-mcp",
+  "license": "MIT",
+  "keywords": ["financial data", "economic data", "market data", "company data", "economic calendar", "mcp"],
+  "logo": "https://narwhalapi.com/brand/narwhal-logo.svg"
+}

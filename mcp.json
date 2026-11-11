@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "narwhal": {
+      "url": "https://api.narwhalapi.com/mcp"
+    }
+  }
+}
